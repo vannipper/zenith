@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+		<PackageReference Include="MonoGame.Framework.WpfInterop" Version="1.9.*" />
+		<PackageReference Include="Dirkster.AvalonDock" Version="4.*" />
+		<PackageReference Include="Dirkster.AvalonDock.Themes.VS2013" Version="4.*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Engine\Engine.csproj" />
+	</ItemGroup>
+
+</Project>

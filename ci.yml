@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v4
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v3
+
+    - name: Restore packages
+      run: nuget restore Zenith.sln
+
+    - name: Build Solution in Release Mode
+      run: msbuild Zenith.sln -property:Configuration=Release
