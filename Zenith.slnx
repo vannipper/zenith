@@ -1,6 +1,8 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
+    <File Path=".github/workflows/ci.yml" />
+    <File Path=".gitignore" />
     <File Path="Directory.Build.props" />
   </Folder>
   <Project Path="Core/Core.csproj" Id="b357eabe-57c3-45d6-8404-365b3174dbe7" />
