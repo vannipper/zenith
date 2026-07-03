@@ -1,9 +1,10 @@
-<UserControl x:Class="Core.ViewportControl"
+<UserControl x:Class="Core.Views.ViewportControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Core"
+			 xmlns:core="clr-namespace:Core"
+             xmlns:local="clr-namespace:Core.Views"
              Height="Auto" Width="Auto">
     <Grid Background="Black">
-        <local:EditorGame />
+        <core:EditorGame />
     </Grid>
 </UserControl>

@@ -1,8 +1,8 @@
 ﻿
-    <Window x:Class="Core.MainWindow"
+    <Window x:Class="Core.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:local="clr-namespace:Core"
+        xmlns:local="clr-namespace:Core.Views"
         xmlns:xcad="clr-namespace:AvalonDock;assembly=AvalonDock"
         xmlns:layout="clr-namespace:AvalonDock.Layout;assembly=AvalonDock"
         xmlns:themes="clr-namespace:AvalonDock.Themes;assembly=AvalonDock.Themes.VS2013"

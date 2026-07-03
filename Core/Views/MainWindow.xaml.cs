@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using Core.ViewModels;
 
-namespace Core;
+namespace Core.Views;
 
 public partial class MainWindow : Window
 {

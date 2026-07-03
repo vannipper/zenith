@@ -4,7 +4,12 @@
     <File Path=".github/workflows/ci.yml" />
     <File Path=".gitignore" />
     <File Path="Directory.Build.props" />
+    <File Path="README.md" />
   </Folder>
   <Project Path="Core/Core.csproj" Id="b357eabe-57c3-45d6-8404-365b3174dbe7" />
   <Project Path="Engine/Engine.csproj" />
+  <Project Path="Pipeline/Pipeline.csproj" Id="9c11975e-3b56-4a8a-ac86-a7c3e8462afb" />
+  <Project Path="Runtime/Runtime.csproj" Id="8858ad71-70b2-4df0-9fbb-d79dc2036df6" />
+  <Project Path="Samples/Samples.csproj" Id="8ccf4f1e-9f2f-4c08-8837-8bd7d0f3c963" />
+  <Project Path="Tools/Tools.csproj" Id="09543ae7-8748-40d6-a257-f42a9307c909" />
 </Solution>

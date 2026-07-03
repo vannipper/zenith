@@ -1,6 +1,6 @@
 using System.Windows.Controls;
 
-namespace Core;
+namespace Core.Views;
 
 public partial class ViewportControl : UserControl
 {
